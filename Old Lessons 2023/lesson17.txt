@@ -1,0 +1,22 @@
+(20th January 2024)
+
+This homework continues on from our grid exercises, list indexing and for loops work from class!
+
+1. Write a Python function called swap_first_last(mylist) that takes a list as input and returns a new list where the first and last elements are swapped.
+e.g. this should be the expected output:
+mylist = [10, 20, 30, 40, 50]
+# Original List: [10, 20, 30, 40, 50]
+
+# After calling swap_first_last(mylist):
+# Swapped List: [50, 20, 30, 40, 10]
+
+2. Write a function row_averages(mygrid) that returns a list containing the average value of each row in the grid. Remember to use doubles as the average might not be a whole number! Once this is done can you try doing it for col_averages too? Where you return a list containing the average value for each column within the grid. 
+
+3. Write a function multiply_grid(mygrid, factor) that takes a grid (mygrid) and a factor as input and multiplies each element in the grid by that factor.
+e.g. if mygrid is:
+123
+456
+789
+and the factor inputed in 2, we should return a new list of grid:
+[[2, 4, 6], [8, 10, 12], [14, 16, 18]]
+

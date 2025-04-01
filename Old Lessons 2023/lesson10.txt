@@ -1,0 +1,29 @@
+(28th October 2023)
+Exercise: Leap Year Checker
+Write a Python function named is_leap_year that takes a year as input and returns True if it's a leap year or False if it's not.
+In the Gregorian calendar, the current standard calendar in most of the world, most years that are integer multiples of 4 are leap years.
+Years that are integer multiples of 100 are not leap years, unless they are also integer multiples of 400, in which case they are leap years.
+For example, 1600 and 2000 were leap years, but 1700, 1800 and 1900 were not.
+Similarly, 2100, 2200, 2300, 2500, 2600, 2700, 2900 and 3000 will not be leap years, but 2400 and 2800 will be.
+Here some hints/steps to follow to complete this task:
+ - Create a function is_leap_year that takes a single parameter, year.
+ - Inside the function, use conditional statements to check if the year meets the leap year criteria:
+    If the year is evenly divisible by 4 and not divisible by 100, it's a leap year.
+    However, if the year is divisible by 100 but not divisible by 400, it's not a leap year.
+ - Return True if the year is a leap year based on the conditions, and return False if it's not.
+
+Exercise: Print a Triangle
+Write a Python function named print_triangle that takes a single parameter, height, and prints a triangle made of asterisks. The triangle should have a specified height, where the height represents the number of rows in the triangle. 
+Here some hints/steps to follow to complete this task:
+ - Create a function print_triangle that takes a single parameter, height.
+ - Inside the function, use nested loops to control the number of rows and the number of asterisks in each row. You can use one loop to control the row number and another to print the asterisks within each row.
+ - In the inner loop, print the required number of asterisks for each row. You can calculate the number of asterisks for each row based on the row number.
+ - Use the outer loop to control the number of rows, and print the result of the inner loop for each row.
+ NOTE: try to remember what we did in last class with the printing rectangles and squares
+ Your output for print_triangle(5) should be:
+ Printing a triangle with height 5:
+ *
+ **
+ ***
+ ****
+ *****

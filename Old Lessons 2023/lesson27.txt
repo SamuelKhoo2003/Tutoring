@@ -1,0 +1,15 @@
+Lists are declared using []
+Sets are declared using set() or {}
+Dictionaries are declared using {}
+
+Core difference between all of them is that lists are indexed so the values are ordered in position 0,1,2,3 ... so on, but dictionaries and sets are not ordered, they are kind off like a bowl of values with no specific order. The difference between dictionaries and sets is that dictionaries have a feature called mapping in which a certain value within the dictionary is "mapped to another", this is a key and value relation. 
+
+E.g. dict - {'a': 10, 'b': 20}, when we call the dict['a'] we will get the value 10 and when we call dict['b'] we will get 20, these are the only ways for us to acces the 10 and 20 value within this dictionary (it has to be through calling the key value directly). 
+
+For functions remembers that we should always practice returning a value instead of printing, this allows for the value to be further used in future. Aside from this functions can also have inputs which have be named and introduced when defining them e.g def functionname(input1, input2):
+
+Remember the different set operations of difference, union, intersection, add and remove. Making good use of these are important when handling questions and large data sets. Also remember that value elements within a dictionary can be modified. 
+
+Also dont forget about topics like f_strings and string operations and slicing (heavily based of indexing in lists), topics like recursion so calling a function within a function are also important!
+
+Then lastly remind yourself about classes, how class items are declared as well as class functions, remember the self property as well and how to declare class specific variables. Classes can exist within classes and are initialised using Class classname:, followed by a def __init__(self) as the first function/property. 

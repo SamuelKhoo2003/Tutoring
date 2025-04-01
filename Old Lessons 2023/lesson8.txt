@@ -1,0 +1,33 @@
+NEW HOMEWORK (7th October)
+
+Starter. 
+Write a function findLargestSmallest(numbers: list[int]) -> tuple that takes a list of integers as input and returns a tuple containing the largest and smallest integers in the list. For example, if the input is [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], the function should return (9, 1).
+
+
+5. Write a function reverseWords(sentence: str) -> str that takes a string containing words separated by spaces as input and returns a new string where the order of the words is reversed, but the words themselves remain unchanged. You can assume that there are no leading or trailing spaces in the input string, and there will be at least one word in the string.
+For example:
+
+Input: "Hello World"
+Output: "World Hello"
+
+# Hint : 
+sentence = "Hello World"
+newlist = sentence.split()
+print(newlist)
+
+6. Write a function def countVowels(word: str) -> int, this function should take a string (in this case named 'word') as an input and return the count of vowels (e.g. a, e, i, o, u) in the word. One thing to note that both upper and lowercase vowels should be counted. 
+
+KEY HINT:
+use .lower() to convert uppercase characters to lowercase characters
+DEMO: 
+mystr = "HELLO there"
+newstr = mystr.lower()
+print(newstr)
+
+* this should print out 'hello there'
+
+Example input: Hello
+Return value: 2
+* this result returns 2 as there are 2 vowels o, e that each appear once in the word. 
+
+This question focuses on string manipulation and basic counting. 

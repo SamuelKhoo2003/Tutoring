@@ -1,0 +1,29 @@
+(2nd March 2024)
+
+Exercise: Designing a Car Rental System
+
+Question:
+
+Design a Python class called Car to represent a car available for rental. The Car class should have the following attributes:
+
+make: representing the make of the car (a string).
+model: representing the model of the car (a string).
+year: representing the manufacturing year of the car (an integer).
+rented: representing whether the car is currently rented out (a boolean).
+Next, design a Python class called Customer to represent a customer renting a car. The Customer class should have the following attributes:
+
+name: representing the name of the customer (a string).
+customer_id: representing the ID of the customer (an integer).
+Finally, design a Python class called CarRental to manage cars and customers. The CarRental class should have the following methods:
+
+__init__(self): Initialize empty lists to store cars and customers. (DONE)
+add_car(self, car): Add a car to the rental system.
+remove_car(self, make, model): Remove a car from the rental system based on its make and model.
+add_customer(self, customer): Add a customer to the rental system.
+remove_customer(self, customer_id): Remove a customer from the rental system based on their customer ID.
+rent_car(self, customer_id, make, model): Allow a customer to rent a car from the rental system.
+return_car(self, customer_id, make, model): Allow a customer to return a rented car to the rental system.
+display_available_cars(self): Display details of all available cars in the rental system.
+display_rented_cars(self): Display details of all rented cars in the rental system.
+display_customers(self): Display details of all customers in the rental system.
+Note: You can assume that car makes and models are unique within the rental system, and customer IDs are unique within the rental system.

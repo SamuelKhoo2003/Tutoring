@@ -1,0 +1,61 @@
+Question 1:
+What is the output of the following code?
+print(len("python"))
+a) 6 - correct
+b) 7
+c) 5
+d) 8
+
+Question 2:
+How do you define a function in Python?
+a) function myFunction():
+b) def myFunction(): - correct
+c) define myFunction():
+d) func myFunction():
+
+Question 3:
+What is the purpose of the return statement in a function?
+a) To print a value on the screen
+b) To specify the output of the function - correct
+c) To end the program
+d) To get user input
+
+Question 4:
+What will be the output of the following code?
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [num ** 2 for num in numbers if num % 2 == 0]
+print(squared_numbers)
+a) [1, 4, 9, 16, 25]
+b) [4, 16] - correct
+c) [1, 9, 25]
+d) [2, 4]
+
+
+Question 5:
+Identify the error in the following code:
+def add_numbers(a, b)
+    return a + b
+a) Missing parentheses after add_numbers
+b) Missing colon at the end of the function definition line - correct
+c) Incorrect indentation
+d) The return statement is unnecessary
+
+Question 6:
+What will be the output of the following code?
+count = 0
+while count < 5:
+    print(count, end=' ')
+    count += 1
+a) 0 1 2 3 4 - correct
+b) 0 1 2 3
+c) 1 2 3 4 5
+d) 1 2 3 4
+
+Question 7:
+What is the result of the following string manipulation?
+text = "Hello, World!"
+result = text[7:12]
+a) "Hello"
+b) "World" - correct
+c) "World!"
+d) "Worl"

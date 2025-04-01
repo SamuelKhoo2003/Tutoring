@@ -1,0 +1,78 @@
+1. Design a Python class called Point to represent a point in a 2-dimensional space. The Point class should have the following attributes:
+
+x: representing the x-coordinate of the point (a float).
+y: representing the y-coordinate of the point (a float).
+Implement the following methods in the Point class:
+
+distance_to(other): Calculate and return the Euclidean distance between the current point and another point passed as other.
+move(dx, dy): Move the point by the given amount in the x-direction (dx) and y-direction (dy).
+
+Fill in the blanks:
+import math
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def distance_to(self, other):
+        return math.sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
+
+    def move(self, dx, dy):
+        self.x += dx
+        self.y += dy
+
+
+# Example usage
+point1 = Point(3, 4)
+point2 = Point(6, 8)
+print("Distance between points:", point1.distance_to(point2))
+
+point1.move(2, 3)
+print("New coordinates of point1:", point1.x, point1.y)
+
+2. Design a Python class called Product to represent a product. The Product class should have the following attributes:
+
+name: representing the name of the product (a string).
+price: representing the price of the product (a float).
+quantity: representing the quantity of the product available (an integer).
+Implement the following methods in the Product class:
+
+get_details(): Return a string containing all the details of the product, formatted as "Product: {self.name}, Price: {self.price}, Quantity: {self.quantity}".
+sell(units): Update the quantity of the product after selling the given number of units.
+
+
+3. Design a Python class called Car to represent a car object. The Car class should have the following attributes:
+
+make: representing the make of the car (e.g., Toyota, Honda).
+model: representing the model of the car (e.g., Camry, Civic).
+year: representing the manufacturing year of the car.
+price: representing the price of the car.
+
+Additionally, implement a method in the Car class called get_details() which returns a string containing all the details of the car, formatted as "Make: {self.make}, Model: {self.model}, Year: {self.year}, Price: {self.price}"
+
+Next, design a Python class called CarShowroom to represent a car showroom. The CarShowroom class should have the following methods:
+
+add_car(car): Add a car object to the showroom's inventory.
+remove_car(car): Remove a car object from the showroom's inventory.
+search_car(make, model): Search for a car in the showroom's inventory based on the make and model. Return the car object if found, otherwise return None.
+print_all_cars(): Print details of all cars in the showroom's inventory. 
+
+# Example usage
+car1 = Car("Toyota", "Camry", 2023, 25000)
+car2 = Car("Honda", "Civic", 2022, 22000)
+car3 = Car("Ford", "Mustang", 2024, 35000)
+
+showroom = CarShowroom()
+showroom.add_car(car1)
+showroom.add_car(car2)
+showroom.add_car(car3)
+
+showroom.print_all_cars()
+
+search_result = showroom.search_car("Ford", "Mustang")
+if search_result:
+    print("\nCar found:")
+    print(search_result.get_details())
+else:
+    print("\nCar not found.")

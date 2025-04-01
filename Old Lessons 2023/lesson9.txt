@@ -1,0 +1,33 @@
+# RECAP + Functions
+# GENERATE MULTIPLICATION TABLE
+# Multiplication Table:
+# Write a program to generate the multiplication table for a given number up to a specified range (e.g., 1 to 10).
+
+# To start user input:
+# The program begins by prompting the user to enter the following details:
+# The number for which they want to generate the multiplication table.
+# The start of the range (e.g., from where they want to start the table).
+# The end of the range (e.g., where they want to end the table).
+
+# The expected output would be:
+# Multiplication Table for 5 (from 1 to 10):
+# 5 x 1 = 5
+# 5 x 2 = 10
+# 5 x 3 = 15
+# 5 x 4 = 20
+# 5 x 5 = 25
+# 5 x 6 = 30
+# 5 x 7 = 35
+# 5 x 8 = 40
+# 5 x 9 = 45
+# 5 x 10 = 50
+
+1 to 7 for the number 7:
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+.
+.
+.
+7 x 7 = 49
+

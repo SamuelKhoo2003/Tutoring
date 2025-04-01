@@ -1,0 +1,24 @@
+(27th january 2024)
+
+1. Write a Python function called reverse_rows(mygrid) that takes a 2D grid as input and returns a new grid where each row is reversed.
+Example:
+mygrid =  [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# Original Grid:
+# 1 2 3
+# 4 5 6
+# 7 8 9
+
+# After calling reverse_rows(mygrid):
+# Reversed Grid:
+# 3 2 1
+# 6 5 4
+# 9 8 7
+
+
+2. Design a class named person with the attributes of name, nickname and age, then can you write a sub class function called greeting which greets them and tells them their nickname and age. 
+
+3. An extension is to add another sub function which checks if they are older or younger than age 21, printing 2 different outputs. 
+
+HINTS for 2 and 3:
+- remember to use the def __init__ to initialise values, don't forget to include the self aspect too to call values, e.g. self.name, etc etc
+- when declaring functions remember to include them under the sub class and not outside of the class

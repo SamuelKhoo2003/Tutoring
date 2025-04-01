@@ -1,0 +1,24 @@
+(13th January 2024)
+
+This homework continues on from our grid exercises and work from class!
+
+1. Write a function find_max(mygrid) that finds and returns the maximum value in the given grid.
+e.g. for grid: 
+123
+456
+789
+this should return the value 9
+
+2. Write me a function that returns the sum of the diagonal from a square grid in the case of grid:
+123
+456
+789
+we should return the value 15 as we are having a diagonal starting from the top left all the way to the bottom right, in this case this will be the sum of 1, 5, 9 
+
+3. Write a function multiply_grid(mygrid, factor) that takes a grid (mygrid) and a factor as input and multiplies each element in the grid by that factor.
+e.g. if mygrid is:
+123
+456
+789
+and the factor inputed in 2, we should return a new list of grid:
+[[2, 4, 6], [8, 10, 12], [14, 16, 18]]

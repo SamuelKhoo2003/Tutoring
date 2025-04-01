@@ -1,0 +1,30 @@
+1. Write a function def FilterList(mylist: list(str), k: int): ->list(str)
+This function should return a new list of all the words in the original list with a length of k characters, k is determined as part of the input (remember you can find the length using len(word), where word is a item in mylist). If theres no words which match this, it should return an empty list. 
+example behaviour:
+testlist ['hello', 'test', 'marcus', 'bingo', 'dog', 'right']
+filteredlist = FilterList(testlist, 5)
+print(filteredlist)
+
+this should give:
+['hello', 'bingo', 'right']
+
+extension: (this is not expected and don't spend too long on this!)
+Could you try solving this inplace? This means that instead of returning a newlist, the function doesnt return anything but rather modifies the original list. The expected behaviour for this would be: 
+testlist = ['hello', 'test', 'marcus', 'bingo', 'dog', 'right']
+FilterList(testlist, 5)
+print(testlist)
+# Notice how we still return the original testlist that was used as input, but it has been modified within our FilterList function.
+
+Hint: you would probably need to use pop(i), where i is the index of the current element, this is quite challenging and I will definitely go through it next lesson!
+
+
+2. Write a function def findFactorial(num: int) -> int: this function should find and return the factorial of the number inputed. I would recommend either using a for or while loop to complete this operation!. If the factorial cannot be found, then the function should return -1. This function should not print anything!
+Remember that you can only find the factorial for numbers above 0, so keep this in mind with you while loop (e.g. if num > 0 or while num != 0). Theres many ways to approach this so choose the way which you understand/suits you best. 
+Factorial explaination: 5 factorial is 5x4x3x2x1 = 120
+
+3. Write a function to check if a number is palindromic or not. Use def isPalindrome(num: int) -> bool:, this function should return a boolean value (so either True or False). 
+Hint: To check whether it is palindromic, a good idea is to convert it to a string and reverse it. (reverse is done by converting your int to a string followed by [::1])
+So if we do new = "test"[::1], then new = "tset"
+This is quite a challenging problem so don't worry if you struggle on it.
+
+

@@ -1,0 +1,23 @@
+(4th November 2023)
+1. Prime Number Checker:
+Write me a python function called is_prime(mynum: int) that takes an integer as an input and returns the boolean value True or False if the number is prime number is not prime.
+E.g. is_prime(5), output will be True but if we do is_prime(4), output will be False
+keep in mind that a prime number is a positive integer that is greater than 1 but only divisible by 1 and itself
+You can check divisibility by testing if the number is divisible by any integer from 2 to the square root of the number (rounded up)
+
+2. Temperature Converter:
+Write me 2 python functions that converts the temperature from Fahrenheit to Celsius and from Celsius to Fahrenheit. Note below:
+def celsius_to_fahrenheit(celsius: double): Takes a temperature in Celsius as input and returns the equivalent temperature in Fahrenheit.
+  Use the formula: Fahrenheit = (Celsius * 9/5) + 32.
+def fahrenheit_to_celsius(fahrenheit: dobule): Takes a temperature in Fahrenheit as input and returns the equivalent temperature in Celsius.
+  Use the formula: Celsius = (Fahrenheit - 32) * 5/9.
+
+Extension:
+You can then create a program that asks the user to choose the conversion they want to perform and input the temperature (remember to use double and not int as we don't want to round the values.)
+
+3. Word Frequency:
+Write a Python function called word_frequency(sentence: str) that takes a sentence as input and returns a dictionary where keys are unique words in the sentence, and values are the frequencies of each word. Ignore case and consider words with different cases as the same word. Remove punctuation from the words.
+
+sentence = "This is a sample sentence. This sentence is a test."
+word_frequency_dict = word_frequency(sentence)
+print(word_frequency_dict)

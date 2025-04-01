@@ -1,0 +1,13 @@
+3. Write a function to check if a number is palindromic or not. Use def isPalindrome(num: int) -> bool:, this function should return a boolean value (so either True or False). 
+Hint: To check whether it is palindromic, a good idea is to convert it to a string and reverse it. (reverse is done by converting your int to a string followed by [::1])
+So if we do new = "test"[::1], then new = "tset"
+This is quite a challenging problem so don't worry if you struggle on it.
+
+4. Write a function isPrime(n: int) -> bool that determines whether a given integer n is a prime number. The function should return True if n is prime and False otherwise. Remember that a prime number is a positive integer greater than 1 that has no positive divisors other than 1 and itself.
+
+5. Write a function reverseWords(sentence: str) -> str that takes a string containing words separated by spaces as input and returns a new string where the order of the words is reversed, but the words themselves remain unchanged. You can assume that there are no leading or trailing spaces in the input string, and there will be at least one word in the string.
+For example:
+
+Input: "Hello World"
+Output: "World Hello"
+

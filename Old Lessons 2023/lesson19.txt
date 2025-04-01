@@ -1,0 +1,50 @@
+1. Design a rectangle class which stores the height and width, then write 2 functions within the class which returns the area of the rectangle, the perimeter of the rectangle and have one to display all the info regarding the rectangle. 
+# Example usage of the Rectangle class
+rectangle1 = Rectangle(5, 8)
+area1 = rectangle1.calculate_area()
+perimeter1 = rectangle1.calculate_perimeter()
+rectangle1.print_details()
+
+# Output:
+# Rectangle Details:
+# Width: 5
+# Height: 8
+# Area: 40
+# Perimeter: 26
+
+starting code:
+class Rectangle():
+  def __init__(self, height, width):
+
+  def calculate_area(self):
+
+  def calculate_perimeter(self):
+
+  def print_details(self):
+
+2. Design a student class where we initialise the Student class and can add courses and remove courses, display info and change age etc.
+# Example usage of the Student class
+student1 = Student("Alice", 20, ["Math", "History", "English"])
+student1.add_course("Physics")
+student1.remove_course("History")
+student1.print_info()
+
+EXTENSION:
+3. Design a bookstore class and attempt to implement a book search sub functions which returns a boolean value:
+# Example usage of the Book and Bookstore classes
+bookstore = Bookstore()
+
+book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", 15.99)
+book2 = Book("To Kill a Mockingbird", "Harper Lee", 12.50)
+
+bookstore.add_book(book1)
+bookstore.add_book(book2)
+
+bookstore.print_all_books()
+
+search_result = bookstore.search_book("The Great Gatsby")
+if search_result:
+    print("Book found:")
+    search_result.print_details()
+else:
+    print("Book not found.")

@@ -1,0 +1,9 @@
+Question 1:
+Write a Python function called reverse_list(my_list) that takes a list as input and returns a new list with the elements reversed.
+Example:
+original_list = [1, 2, 3, 4, 5]
+reversed_list = reverse_list(original_list)
+print(reversed_list)
+Expected Output:
+[5, 4, 3, 2, 1]
+NOTE: Ensure that your function works for lists of different lengths and types of elements
